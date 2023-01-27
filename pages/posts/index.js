@@ -30,7 +30,7 @@ export default function Post({ posts }) {
         {posts.map((v, i) => (
           <li key={v}>
             <Link href={`posts/${i + 2}`}>
-              <a>{v}</a>
+              {v}
             </Link>
           </li>
         ))}
